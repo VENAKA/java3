@@ -9,6 +9,7 @@ let reSult = firstNumber > 3 && firstNumber < 4
 console.log(reSult) 
 */
 
+
 /* 
 let sekondNumber = 7
 let reSult = sekondNumber > 6 || sekondNumber < 5

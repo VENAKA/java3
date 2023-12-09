@@ -2,6 +2,7 @@
 
 
 
+
 let bUtton = document.querySelector('.form__btn')
 
 bUtton.addEventListener("click", function ()  {
@@ -61,7 +62,7 @@ else if(newNumberValue.length !== 13 || !newNumberValue.includes('+')) {
 }
 else {
     sessionStorage.setItem("nameValue" , nameValue)
-    window.location.href = '../2__st/two.html'
+    window.location.href = './two.html'
     phoneMod.classList.remove("block")
 }
 

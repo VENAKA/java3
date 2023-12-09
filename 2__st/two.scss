@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(34, 45, 66);
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.header__username{
+    color: #ffffff;
+}
+.card {
+    width: 500px;
+    height: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 50px auto;
+    border-radius: 10px;
+    background-image: url(../img/a6dca2f78c0c94f90b3b5fc95904cf85_preview_w440_h290.jpeg);
+    background-size: cover;
+    padding: 20px;
+}
+.card__header {
+    display: flex;
+    justify-content: space-between;
+}
+.card__header-h {
+    font-size: 20px;
+    color: #ffffff;
+}
+.card__surname {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.card__block {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    font-size: 15px;
+}
+.card__name {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+}
+.card__header-text {
+    font-size:20px; 
+    color: #ffffff;
+}
+.card__sim {
+    width: 80px;
+    height: 80px;
+    margin: 20px 0 0 20px;
+}
+.card__input {
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
+    margin: 30px 0 20px 100px;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffffff;
+}
+.card__info {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.card__info-cv {
+    font-size: 20px;
+    color: #ffffff;
+}
+.card__info-date {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+
+
+
+.form-2 {
+    max-width: 800px;
+    height: 400px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 0px 40px #ffffff;
+    border-radius: 20px;
+    margin: 50px auto;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left:-2000px;
+    transition: 1s;
+}
+.form-2.block{
+    left: 0;
+}
+.form__block {
+    width: 700px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.form__block:nth-child(5){
+    justify-content: start;
+    padding: 20px 60px 20px 30px;
+}
+.form__block:nth-child(4){
+    justify-content: start;
+}
+.form__block-label {
+    margin: 20px;
+    color:#000000 ;
+}
+.form__block-button {
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid #000;
+    color: #6c6c6c;
+    background-color: #000000;
+    cursor: pointer;
+    box-shadow: 5px 2px 3px #00000000;
+    transition: 1s;
+}
+.form__block-button:hover{
+    transform: scale(1.1);
+}
+.form__block-cvv {
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid #000;
+    color: #6c6c6c;
+    background-color: #000000;
+    cursor: pointer;
+    box-shadow: 5px 2px 3px rgba(0, 0, 0, 0);
+    transition: 1s;
+}
+.form__block-cvv:hover{
+    transform: scale(1.1);
+}
+.form__block-date {
+    width: 150px;
+    height: 40px;
+    color: #000000;
+    font-size: 20px;
+}
+.form__block-name {
+    border: 2px solid #000;
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
+    margin: 65px;
+}
+.form__block-surname {
+    border: 2px solid #000;
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
+}
+
+
+.card__button {
+    width: 200px ;
+    height: 50px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 2px 3px 10px #ffffff;
+    border-radius: 5px;
+    margin: 50px auto;
+    cursor: pointer;
+    transition: 1s;
+}
+.card__button:hover{
+    transform: scale(1.1);
+}
+.card__fin {
+    width: 300px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    box-shadow: 2px 3px 10px #ffffff;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+    display: none;
+    text-align: center;
+    padding: 23px;
+}
+
+.header {
+    max-width: 100%;
+    height: 100px;
+    background-color: #979696;
+}
+.header__block {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+}
+.header__img {
+}
+.header__username {
+}
+
+

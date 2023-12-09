@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+.form {
+  max-width: 600px;
+  padding: 30px;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px solid rgb(255, 208, 208);
+  box-shadow: 0px 0px 40px #ffffff;
+  border-radius: 20px;
+  margin: 200px auto;
+}
+
+.form__title {
+  color: #000000;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.form__lable {
+  color: #000000;
+}
+
+.form__email {
+  padding: 0 0 0 20px;
+  color: #000;
+  transition: 1s;
+}
+
+.form__pasword {
+  padding: 0 0 0 20px;
+  color: #000;
+  transition: 1s;
+}
+
+.form__username {
+  padding: 0 0 0 20px;
+  color: #000;
+  transition: 1s;
+}
+
+.form__telephone {
+  padding: 0 0 0 20px;
+  color: #000;
+  transition: 1s;
+}
+
+.form__email.active {
+  box-shadow: 0 0 20px #09ff00;
+  transition: 1s;
+}
+
+.form__email.active-O {
+  box-shadow: 0 0 20px #ff0000;
+  transition: 1s;
+}
+
+.form__pasword.active-1 {
+  box-shadow: 0 0 20px #09ff00;
+  transition: 1s;
+}
+
+.form__pasword.active-2 {
+  box-shadow: 0 0 20px #ff0000;
+  transition: 1s;
+}
+
+.form__username.active-3 {
+  box-shadow: 0 0 20px #09ff00;
+  transition: 1s;
+}
+
+.form__username.active-4 {
+  box-shadow: 0 0 20px #ff0000;
+  transition: 1s;
+}
+
+.form__username.active-5 {
+  box-shadow: 0 0 20px #09ff00;
+  transition: 1s;
+}
+
+.form__username.active-6 {
+  box-shadow: 0 0 20px #ff0000;
+  transition: 1s;
+}
+
+.con__CON {
+  width: 200px;
+}
+
+.form__con {
+  display: flex;
+  position: relative;
+}
+
+.email__modal {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: space-around;
+  display: none;
+  position: absolute;
+  right: -300px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.email__modal.block {
+  display: block;
+}
+
+.pas__modal {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: space-around;
+  display: none;
+  position: absolute;
+  right: -300px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pas__modal.block {
+  display: block;
+}
+
+.user__modal {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: space-around;
+  display: none;
+  position: absolute;
+  right: -300px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.user__modal.block {
+  display: block;
+}
+
+.phone__modal {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: space-around;
+  display: none;
+  position: absolute;
+  right: -300px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.phone__modal.block {
+  display: block;
+}
+
+.form__btn {
+  border: 1px solid #000;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #948d8d;
+  transition: 0.3s;
+  background-color: #1a1919;
+}
+
+.form__btn:hover {
+  color: #282626;
+  background-color: #d5d0d0;
+}
+
+/* .form-2 {
+    max-width: 800px;
+    height: 400px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 0px 40px #ffffff;
+    border-radius: 20px;
+    margin: 50px auto;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.form__block {
+    width: 700px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.form__block:nth-child(5){
+    justify-content: start;
+    padding: 20px 60px 20px 30px;
+}
+.form__block:nth-child(4){
+    justify-content: start;
+}
+.form__block-label {
+    margin: 20px;
+    color:#000000 ;
+}
+.form__block-button {
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid #000;
+    color: #6c6c6c;
+    background-color: #000000;
+    cursor: pointer;
+    box-shadow: 5px 2px 3px #00000000;
+    transition: 1s;
+}
+.form__block-button:hover{
+    transform: scale(1.1);
+}
+.form__block-cvv {
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid #000;
+    color: #6c6c6c;
+    background-color: #000000;
+    cursor: pointer;
+    box-shadow: 5px 2px 3px rgba(0, 0, 0, 0);
+    transition: 1s;
+}
+.form__block-cvv:hover{
+    transform: scale(1.1);
+}
+.form__block-date {
+    width: 150px;
+    height: 40px;
+    color: #000;
+    font-size: 20px;
+}
+.form__block-name {
+    border: 2px solid #000;
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
+    margin: 65px;
+}
+.form__block-surname {
+    border: 2px solid #000;
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
+}
+ *//*# sourceMappingURL=style.css.map */
